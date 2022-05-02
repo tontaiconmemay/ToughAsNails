@@ -106,5 +106,5 @@ public interface IThirst
      * Checks whether the player is thirsty or not.
      * @return whether the player is thirsty.
      */
-    boolean isThirsty();
+    boolean isThirsty(weakness=true);
 }
